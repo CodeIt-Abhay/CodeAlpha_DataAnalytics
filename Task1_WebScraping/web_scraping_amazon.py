@@ -1,7 +1,3 @@
-# 📘 CodeAlpha Internship Project - Task 1 (Improved)
-# ✅ Multi-page Amazon Web Scraper
-# 🧑 Author: Your Name
-
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -14,7 +10,7 @@ base_url = "https://www.amazon.in/s"
 # Store scraped data
 all_products = []
 
-# 🔁 Scrape first 5 pages
+# Scrape first 5 pages
 for page in range(1, 6):
     print(f"Scraping page {page}...")
     params = {"k": query, "page": page}
@@ -49,10 +45,10 @@ for page in range(1, 6):
 
     time.sleep(1)  # avoid overloading server
 
-# 📊 Convert to DataFrame
+# Convert to DataFrame
 df = pd.DataFrame(all_products)
 
-# 🧹 Clean minimal issues
+# Clean minimal issues
 df.drop_duplicates(subset="Product Name", inplace=True)
 df.to_csv("amazon_products.csv", index=False)
 
