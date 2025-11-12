@@ -79,7 +79,7 @@ This chart shows the highest-rated laptops on Amazon, based on user feedback.
 ### 💰 Price Distribution
 The histogram shows how laptop prices are distributed, revealing common pricing ranges.
 
-![Price Distribution](Task3_DataVisualization/screenshots/price_distribution.png)
+![Price Distribution](Task3_DataVisualization/screenshots/visualization_output.png)
 
 ### ⭐ Price vs Rating
 The scatter plot compares laptop prices with their ratings to identify whether higher prices mean better reviews.
@@ -90,8 +90,8 @@ The scatter plot compares laptop prices with their ratings to identify whether h
 ## 🌐 Connect with Me
 
 👨‍💻 Name: Abhay Pratap
-🔗 LinkedIn: `abhay-pratap-a50570368`
-🐙 GitHub: `CodeIt-Abhay`
+🔗 LinkedIn: `https://www.linkedin.com/in/abhay-pratap-a50570368/?original_referer=`
+🐙 GitHub: `https://github.com/CodeIt-Abhay`
 
 
 ## 🏁 About the Internship
